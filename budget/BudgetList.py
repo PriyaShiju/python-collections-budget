@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 from . import Expense
 
 class BudgetList:
-    def __int__(self,budget):
+    def __init__(self,budget):
         self.budget = budget        
         self.sum_expenses = 0
         self.expenses =[]
