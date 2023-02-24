@@ -1,8 +1,10 @@
 import ast
 import inspect
+import collections.abc
+
 import json
 import os
-import collections
+
 
 
 def load_ast_tree(filename):
